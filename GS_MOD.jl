@@ -20,6 +20,7 @@ function GS_MOD(A)
     return Q, R
 end
 function GS_MOD_LOG(A)
+    print("Algoritmo de Gram-Schmidt MODIFICADO\n")
     m, n = size(A)
     Q = zeros(m, n)
     R = zeros(n, n)
